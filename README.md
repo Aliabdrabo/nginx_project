@@ -1,5 +1,12 @@
 # nginx_project
 ![NGINX-Logo](https://github.com/user-attachments/assets/9d1413ad-74d7-4b5f-a615-21f4b548dd46)
+<h3 align="center">
+  <img src="https://img.shields.io/badge/Project-DevOps-blue" alt="Project Type">
+  <img src="https://img.shields.io/badge/Tech-Nginx-green" alt="Tech">
+  <img src="https://img.shields.io/badge/Status-Complete-success" alt="Status">
+</h3>
+
+
 
 ## Overview
 This project demonstrates a full Nginx setup as a **reverse proxy** with:
@@ -54,5 +61,6 @@ curl -k https://localhost
 - curl -k ignores SSL warnings (for self-signed certificates).
 - Rate limiting and connection limiting help protect backends from overload.
 - Proxy caching improves performance by storing frequently accessed responses.
+
 
 
