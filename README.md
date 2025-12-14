@@ -17,7 +17,7 @@ This project demonstrates a full Nginx setup as a **reverse proxy** with:
 - Proxy caching for optimization
 
 ---
-
+```bash
 nginx-reverse-proxy-project/
 ├── backend1/ -> ***Backend 1 HTML page***
 ├── backend2/ -> ***Backend 2 HTML page***
@@ -25,7 +25,7 @@ nginx-reverse-proxy-project/
 ├── nginx/ -> ***Nginx configuration***
 ├── start_backends.sh -> ***Script to run backends***
 └── README.md
-
+```
 ---
 ## How to Run
 
