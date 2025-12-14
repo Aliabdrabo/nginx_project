@@ -3,8 +3,9 @@
 <h3 align="center">
   <img src="https://img.shields.io/badge/Project-DevOps-blue" alt="Project Type">
   <img src="https://img.shields.io/badge/Tech-Nginx-green" alt="Tech">
-  <img src="https://img.shields.io/badge/Status-Complete-success" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Demo-yellow" alt="Status">
 </h3>
+
 
 
 
