@@ -1,10 +1,21 @@
 # AWS Nginx Load Balancing with Private Backends and Failover
 ![NGINX-Logo](https://github.com/user-attachments/assets/9d1413ad-74d7-4b5f-a615-21f4b548dd46)
+<h1 align="center">🚀 AWS Nginx Reverse Proxy & Load Balancing Demo</h1>
+
 <h3 align="center">
-  <img src="https://img.shields.io/badge/Project-DevOps-blue" alt="Project Type">
-  <img src="https://img.shields.io/badge/Tech-Nginx-green" alt="Tech">
-  <img src="https://img.shields.io/badge/Status-Demo-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/Project-DevOps-blue?style=for-the-badge&logo=devops" alt="Project Type">
+  <img src="https://img.shields.io/badge/Tech-Nginx-green?style=for-the-badge&logo=nginx" alt="Tech">
+  <img src="https://img.shields.io/badge/Status-Demo-yellow?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazon-aws" alt="Cloud">
 </h3>
+
+<p align="center">
+  <b>A production-style demo showing Nginx reverse proxy, load balancing, rate limiting, and failover on AWS EC2 with private backends.</b>
+</p>
+
+---
+
+
 
 
 ## Overview 📌
@@ -56,7 +67,7 @@ sudo systemctl reload nginx
 ```
 <img width="1648" height="598" alt="Screenshot 2025-12-14 201619" src="https://github.com/user-attachments/assets/0d9a276b-1458-44b0-aa5a-2341d3581586" />
 
-4. Test access:
+5. Test access:
 <img width="1920" height="992" alt="back1result" src="https://github.com/user-attachments/assets/b6b9b305-0214-46af-b6fb-63b171553e43" />
 <img width="1920" height="991" alt="back2result" src="https://github.com/user-attachments/assets/b0540861-b509-4c94-a969-123d2f63a8f1" />
 ### Load Balancing Demonstration
