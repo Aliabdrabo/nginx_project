@@ -34,6 +34,13 @@ The setup follows best practices by isolating backend services in a private subn
 - Security Groups to restrict traffic flow
 - Rate limiting & connection limiting enforced at Nginx level
 - Passive health checks & failover using Nginx upstream configuration
+<img width="1625" height="512" alt="ec2s" src="https://github.com/user-attachments/assets/9735b0cc-f7d3-46c1-ad3a-0bf45ce39f45" />
+<img width="1920" height="891" alt="Screenshot 2025-12-22 201803" src="https://github.com/user-attachments/assets/e422ef01-2104-4044-8e32-812f02b0cfa1" />
+<img width="1647" height="582" alt="sg1" src="https://github.com/user-attachments/assets/2824fb4c-4587-4b4a-b6f2-bc9b66f8c156" />
+<img width="1641" height="587" alt="sg2" src="https://github.com/user-attachments/assets/70794530-0848-437e-9774-7cb1c6daffe9" />
+<img width="1647" height="448" alt="sgsss" src="https://github.com/user-attachments/assets/e669994e-2d48-4f9c-b2aa-873d53aa0701" />
+<img width="1562" height="252" alt="Screenshot 2025-12-23 015007" src="https://github.com/user-attachments/assets/78b85bc9-6f20-4ac7-ac96-de94f27ed214" />
+
 ---
 ## Repo rrchitecture
 ```bash
@@ -48,7 +55,8 @@ nginx-reverse-proxy-project/
 ## How to Run
 
 1. **Start the backends**
- ssh into the ec2 insteance 
+ ssh into the ec2 insteance
+<img width="1655" height="831" alt="sshintonginx" src="https://github.com/user-attachments/assets/6a488483-1641-43ab-9f17-3d6c20c475be" />
 ```bash
 cd backend/
 python3 app.py
